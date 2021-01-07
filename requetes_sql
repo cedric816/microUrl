@@ -1,0 +1,8 @@
+/*nouvelle entrée dans la table url*/
+INSERT INTO `url` (`url_id`, `url`, `shortcut`, `datetime`, `description`) VALUES (NULL, 'https://resultats.ffbb.com/organisation/b5e6211d5979.html', 'bb-Reg-Occitanie', '2021-01-07 09:00:03', 'Page des résultats de basket de la région Occitanie');
+
+/*nouvelles entrées dans la table mots_cles*/
+INSERT INTO `mots_cles` (`mot_cle_id`, `mot_cle`) VALUES (NULL, 'regional');
+
+/*nouvelles entrées dans la table url_mots_cles pour lier les mots clés à l'url*/
+INSERT INTO `url_mots_cles` (`url_mots_cles_id`, `id_mot_cle`, `id_url`) VALUES (NULL, '1', '5'), (NULL, '4', '5');
